@@ -1,0 +1,19 @@
+dir1={
+        1:"python",
+        'date':1989 
+    }
+dir2={
+        2:"java",
+        'date':1995
+    }
+dir3={
+        3:'c++',
+        'date':1990
+    }
+language={
+    'dir1':dir1,
+    'dir2':dir2,
+    'dir3':dir3
+}
+for k in language:
+    print(k,language[k])
