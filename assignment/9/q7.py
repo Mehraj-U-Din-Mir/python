@@ -2,6 +2,5 @@
 num=int(input("Enter the number"))
 i=1
 while(num>i):
-    if num%2==0:
-        print(num,end=' ')
-    num=num-1
+        print(num*2-2,end=' ')
+        num=num-1

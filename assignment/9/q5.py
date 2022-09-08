@@ -2,7 +2,6 @@
 num=int(input("Enter the number of times  "))
 i=1
 while(num>=i):
-    if(num%2!=0):
-        print(num,end= ' ')
-    num=num-1
+        print(num*2-1,end= ' ')
+        num=num-1
 
