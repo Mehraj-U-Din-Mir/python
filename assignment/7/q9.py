@@ -12,4 +12,4 @@ match year:
     case year if year %100!=0 and year %400!=0 and year %4!=0:
         print("Non century non leap year")
     case year if year %100==0 and year %400!=0 and year %4==0:
-        print("Century non leap yea")
+        print("Century non leap year")
