@@ -5,9 +5,9 @@ score=0
 display=" "
 for i in range(0,5):
     print("Arrange the letters to form a valid word: ")
-    word=random.sample(words,1)
+    word=random.choice(words)
     temp=copy.deepcopy(list(word))
-    random.shuffle(word)
+    random.shuffle(temp)
     display=''.join(temp)
     print(display)
     user_guess=input()
