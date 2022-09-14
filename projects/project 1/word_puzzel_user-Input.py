@@ -1,6 +1,4 @@
 from random import random
-
-
 import random
 words= input("Enter the elements separated with commas  :")
 word_input=words.split(',')
